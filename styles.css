@@ -1,0 +1,90 @@
+body {
+    background-color: #181818;
+    overflow-x: hidden;
+    width:100%;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
+}
+
+input {
+    height: 30px;
+}
+
+#title:hover {
+    cursor: pointer;
+}
+
+li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.movies {
+    position: relative;
+    top: 80px;
+}
+
+#search {
+    position: relative;
+    top: 3px;
+}
+
+.card {
+    transition: 0.5s ease-in;
+    border-radius: 20px;
+    border-color:#181818;
+    margin: 0 auto; 
+    float: none;
+    margin-bottom: 10px; 
+    height: 100%;
+}
+
+.card:hover {
+    cursor: pointer;
+    box-shadow: rgba(255, 255, 255, 0.1) 1px 1px 1px 1px inset, rgba(255, 255, 255, 0.25) 0px 50px 100px -20px, rgba(255, 255, 255, 0.3) 0px 30px 60px -30px;
+    border: 8px solid rgb(228, 228, 228);
+    border-radius: 20px;
+    height: 200px;
+}
+
+.modal {
+    position: relative;
+    top: -500px;
+}
+
+.search {
+    margin: auto;
+    display: block;
+    height: 70px;
+    width: 700px;
+    margin-top: 450px;
+    font-size: 90px;
+}
+
+#preloader {
+    background: #000000 url('preloader.gif') no-repeat center center;
+    background-size: 30%;
+    height: 100vh;
+    width: 100%;
+    position:fixed;
+    z-index:100;
+    transition-duration: 2s;
+}
+
+#login:hover {
+    background-color: #181818;
+}
+
+#searchIcon {
+    position: relative;
+    top: 100px;
+    left: -30px;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    margin-left: -10px;
+}
